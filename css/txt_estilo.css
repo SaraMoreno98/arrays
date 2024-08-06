@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: larger;
+}
+ /* ESTILO ALTERNATIVO */
+.estilo_aternativo{
+    font-weight: bolder;
+    color: #21c421;
+}
+
+button{
+    padding: 8px;
+    border: 0;
+    border-radius: 0.3rem;
+    background-color: #21c421;
+    color: white;
+    font-weight: 400;
+}
+
+button:hover{
+    font-weight: bold;
+}

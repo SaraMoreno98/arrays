@@ -1,0 +1,92 @@
+
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+header, main{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 32px;
+    border-radius: 0.3rem;
+    margin-bottom: 16px;
+}
+
+.fila2{
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.autor{
+    text-align: right;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+button{
+    padding: 16px;
+    border: 0;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: rgb(33, 196, 33);
+    font-size: large;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+.btn-tareas{
+    width: 20%;
+    margin-left: 10px;
+    padding:12px;
+    border: 0;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: rgb(33, 196, 33);
+    font-size: large;
+}
+
+.btn-eliminar{
+    padding: 8px;
+    margin-left: 32px;
+    background-color: #F0F8FF;
+    color: rgb(196, 33, 33);
+    font-weight: bold;
+}
+
+.btn-eliminar:hover{
+    background-color: rgb(196, 33, 33);
+    color: #F0F8FF;
+
+}
+
+input{
+    width: 75%;
+    padding: 12px;
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-bottom: 8px;
+    margin-left: -24px;
+}
+
+li::first-letter{
+    text-transform: uppercase;
+}
